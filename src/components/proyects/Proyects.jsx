@@ -47,6 +47,7 @@ const Tecnologies = styled.p`
   text-align: center;
   padding: 25px;
   margin: 25px;
+  font-weight: 1px;
 
 `
 export default Proyects

@@ -1,10 +1,10 @@
 
 import React,{ useRef , useEffect} from 'react'
 import styled from 'styled-components'
-import img1 from "../../images/1.jpg"
-import img2 from "../../images/2.jpg"
-import img3 from "../../images/3.jpg"
-import img4 from "../../images/4.jpg"
+import cripto from "../../images/cripto.jpg"
+import task from "../../images/task.jpg"
+import plantasia from "../../images/plantasia.jpg"
+import autores from "../../images/autores.jpg"
 
 const Slider = () => {
   
@@ -105,42 +105,57 @@ const Slider = () => {
         <ContenedorSlidehshow ref={slideshow}>
 
           <Slide>
-            <a href="https://www.linkedin.com/in/lautaro-larragueta/">
-              <img src={img1} alt="" />
+            <a href="https://fluffy-dusk-ece8ea.netlify.app/" target="_blank">
+              <img src={cripto} alt="" />
             </a>
 
             <TextoSlide>
-              <p>Hola este es mi slider</p>
+              <p>Proyecto de forma Autodidacta</p>
+              <p>Cotizador de criptomonedas</p>
+              <p>Herramientas:  React y Styled Components</p> 
             </TextoSlide>
           </Slide>
 
           <Slide>
-            <a href="https://www.linkedin.com/in/lautaro-larragueta/">
-              <img src={img2} alt="" />
+            <a href="https://laokatana.github.io/anotador-de-tareas/" target="_blank">
+              <img src={task} alt="" />
             </a>
 
-            <TextoSlide>
-              <p>Hola este es mi slider</p>
+          <TextoSlide>
+            <p>Proyecto del Programa ONE que impartio alura</p>
+            <p>Anotador de tareas</p>
+            <p>Curso: Manipulacion del DOM</p>
+            <p>Herramientas: HTML,CSS, JavaScript</p>
             </TextoSlide>
           </Slide>
 
           <Slide>
-            <a href="https://www.linkedin.com/in/lautaro-larragueta/">
-              <img src={img3} alt="" />
+            <a href="https://shimmering-marshmallow-655a97.netlify.app/" target="blank">
+              <img src={plantasia} alt="" />
             </a>
 
             <TextoSlide>
-              <p>Hola este es mi slider</p>
+              <p>Proyecto del Programa IntegrarTec </p>
+              <p>Vivero Plantasia</p>
+              <p>Segundo evaluativo de la formacion tecnica Global Learning</p>
+              <p>Ambito de la evaluacion: Fron-end</p> 
+              <p>Curso: Programacion web Full stack, stack MERN</p>
+              <p>Herramientas: HTML, CSS, JavaScript</p>
             </TextoSlide>
           </Slide>
 
           <Slide>
-            <a href="https://www.linkedin.com/in/lautaro-larragueta/">
-              <img src={img4} alt="" />
+            <a href="https://github.com/laokatana/API-de-Autores" target="_blank">
+              <img src={autores} alt="" />
             </a>
 
             <TextoSlide>
-              <p>Hola este es mi slider</p>
+              <p>Proyecto del Programa IntegrarTec </p>
+              <p>API de autores</p>
+              <p>Tercer evaluativo de la formacion tecnica Global Learning</p>
+              <p>Ambito de la evaluacion: Back-end</p>
+              <p>Curso: Programacion web Full stack, stack MERN</p>
+              <p>Herramientas: NodeJs, MongoDB, Express</p>
             </TextoSlide>
           </Slide>
 
