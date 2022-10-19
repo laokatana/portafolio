@@ -1,0 +1,42 @@
+.about-container{
+  display: flex;
+   background: linear-gradient(to bottom,  #161516 ,#161516,#161516,#5f3f7e);
+  color: rgb(214, 188, 188);
+  height: 70vh;
+  padding: 100px 0 100px 0;
+
+  
+}
+
+.about-desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  padding: 25px 50px 0  50px;
+  margin-bottom: 2rem;  
+  gap: 10rem;
+  text-align: center;
+}
+
+.about-desc > h3 {
+  margin-top: 5rem;
+  font-size: 45px;
+  
+}
+
+.sobre-mi {
+  line-height: 1.5;
+  position: relative;
+  bottom: 125px;
+  font-size: 20px;
+  width: auto;
+}
+
+.about-img{
+  width: 45%;
+  display: flex;
+  align-self: center;
+  height: 40rem;
+  overflow: hidden;
+}
