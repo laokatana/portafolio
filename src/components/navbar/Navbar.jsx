@@ -15,7 +15,9 @@ const Navbar = ({ isScrolling }) => {
     window.scrollTo( {top : 1525, left:0, behavior: "smooth"} )
   }
 
-
+       const contacto = () =>{
+    window.scrollTo( {top : 2750, left:0, behavior: "smooth"} )
+  }
   return (
 
     <div className='container-navbar'>
@@ -23,7 +25,7 @@ const Navbar = ({ isScrolling }) => {
         <div className='navbar-logo' onClick={toTheTop} >Home</div>
         <div className='navbar-logo' onClick={sobreMi} >Sobre mi</div>
         <div className='navbar-logo' onClick={proyecto} >Proyectos</div>
-        <div className='navbar-logo' onClick={toTheTop} >Contacto</div>
+        <div className='navbar-logo' onClick={contacto} >Contacto</div>
       </nav>
     </div>
 

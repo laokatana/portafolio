@@ -3,9 +3,12 @@ import styled from 'styled-components'
 import './App.css'
 import AboutMe from './components/about/AboutMe'
 import Cover from './components/cover/Cover'
+import Footer from './components/footer/Footer'
+import Info from './components/info/Info'
 import Navbar from './components/navbar/Navbar'
 import Proyects from './components/proyects/Proyects'
 import Slider from './components/slider/Slider'
+
 
 
 
@@ -38,7 +41,8 @@ function App() {
         <Slider/>
         <Proyects/>
       </section>
-
+      <Info/>
+      <Footer/>
 
     </div>
   )
