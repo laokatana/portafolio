@@ -7,18 +7,20 @@ const Footer = () => {
         
       <footer className='footer'>
           <div className='footer-info'>
-              <h1>your name</h1>
-              <p>Based in your city</p>
+        <h1>Larragueta</h1>
+        <h1>Lautaro</h1>
+        <h4>Lao</h4>
+              <p>Full stack developer</p>
           </div>
 
           <div className='footer-contact'>
-              <h3>contact me</h3>
-              <p>and lets get down to work </p>
+              <h3></h3>
+              <p>Trabajemos juntos</p>
           </div>
 
           <div className='footer-sns'>
                 <div className='design-by'>
-                  Design by Your name 
+                  Design by Lao
                  </div>
 
                 <div className='sns-links'>
