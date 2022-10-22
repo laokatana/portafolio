@@ -5,6 +5,7 @@ import cripto from "../../images/cripto.jpg"
 import task from "../../images/task.jpg"
 import plantasia from "../../images/plantasia.jpg"
 import autores from "../../images/autores.jpg"
+import TypeIt from "typeit-react";
 
 const Slider = () => {
   
@@ -77,7 +78,7 @@ const Slider = () => {
  useEffect(()=>{
     let intervalo =  setInterval(()=>{
       next();
-    }, 5000);
+    }, 8000);
 
 
     //eliminamos los intervalos
@@ -90,7 +91,7 @@ const Slider = () => {
    slideshow.current.addEventListener( 'mouseleave',  ()=>{
       intervalo  =  setInterval(()=>{
         next();
-      }, 5000);
+      }, 8000);
   }); 
 
 
@@ -104,15 +105,21 @@ const Slider = () => {
         
         <ContenedorSlidehshow ref={slideshow}>
 
+        
+
           <Slide>
             <a href="https://fluffy-dusk-ece8ea.netlify.app/" target="_blank">
               <img src={cripto} alt="" />
             </a>
 
-            <TextoSlide>
-              <p>Proyecto de forma Autodidacta</p>
-              <p>Cotizador de criptomonedas</p>
-              <p>Herramientas:  React y Styled Components</p> 
+          <TextoSlide>
+            <TypeIt option= {{
+              speed: 10
+            }} >
+                  <p>Proyecto de forma Autodidacta</p>
+                  <p>Cotizador de criptomonedas</p>
+                  <p>Herramientas:  React y Styled Components</p> 
+              </TypeIt>
             </TextoSlide>
           </Slide>
 
@@ -209,7 +216,8 @@ const Slide = styled.div`
 
 const TextoSlide = styled.div`
   background: rgba(0,0,0,.5);
-  color: #fff;
+  color: #ceb029;
+  text-shadow: 2px 2px 8px #FF0000;
   width: 100%;
   padding: 10px 60px;
   text-align: center;

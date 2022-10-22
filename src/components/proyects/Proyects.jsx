@@ -13,13 +13,12 @@ const Proyects = () => {
         }}
       
       >
-        
-                Aqui encontraras los proyectos que fui construyendo con el paso del 
-                tiempo los mismos fueron realizados por los cursos que fui tomando 
-                en el transcurso de este aprendizaje constante, cursos como por ejemplo 
-                de programacion web fulll stack con el stack MERN de la mano de global learning bajo 
-                el programa integrarTec que lo imparte la Fundacion Integrar que
-                Desde hace 15 años becan a jóvenes de barrios carenciados que reúnen las condiciones intelectuales, el deseo y la tenacidad necesaria para realizar estudios de nivel superior a fin de mejorar sus condiciones de empleabilidad. 
+                  Aqui encontraras los proyectos que fui construyendo con el paso del 
+                  tiempo los mismos fueron realizados por los cursos que fui tomando 
+                  en el transcurso de este aprendizaje constante, cursos como por ejemplo 
+                  de programacion web fulll stack con el stack MERN de la mano de global learning bajo 
+                  el programa integrarTec que lo imparte la Fundacion Integrar que
+                  Desde hace 15 años becan a jóvenes de barrios carenciados que reúnen las condiciones intelectuales, el deseo y la tenacidad necesaria para realizar estudios de nivel superior a fin de mejorar sus condiciones de empleabilidad. 
               
             <br/>
             <br/>
@@ -52,12 +51,14 @@ const Proyects = () => {
 
 
 const Tecnologies = styled.p`
-  color: white;
+  
   font-size:15px;
   text-align: center;
   padding: 25px;
   margin: 25px;
   font-weight: 1px;
+  color: #d8d085;
+  text-shadow: 2px 2px 8px #FF0000;
 
 `
 export default Proyects

@@ -49,6 +49,8 @@ const Title = styled.p `
   font-weight:400;
   text-align: center;
   padding-bottom: 50px;
+   color: #a5992d;
+  text-shadow: 2px 2px 8px #FF0000;
   
 `
 
