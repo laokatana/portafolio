@@ -10,7 +10,10 @@
   display: flex;
   flex-direction: row;
   gap: 35px;
+   
 }
+
+
 
 .scrolling {
   background-color: black;
@@ -22,6 +25,18 @@
   line-height: 80px;
   color: white;
   cursor: pointer;
+  transition: 1s all;
 }
 
+.navbar-logo:hover{
+  color: rgb(221, 186, 28);
+  text-shadow: 5px 5px 5px  #ce4c24;
+  transform: scale(1.2);
+}
 
+@media Screen and (max-width: 960px){
+  .navbar{
+    gap: 15px;
+    padding-left: 45px;
+  }
+}

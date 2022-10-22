@@ -1,11 +1,14 @@
 .about-container{
   display: flex;
-   background: linear-gradient(to bottom,  #161516 ,#161516,#161516,#5f3f7e);
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(to bottom,  #161516 ,#161516,#161516,#301e5a);
   color: rgb(214, 188, 188);
-  height: 70vh;
+  width: auto;
+  height: 90vh;
   padding: 100px 0 100px 0;
-
   
+ 
 }
 
 .about-desc{
@@ -22,6 +25,9 @@
 .about-desc > h3 {
   margin-top: 5rem;
   font-size: 45px;
+  color: rgb(221, 186, 28);
+  text-shadow: 5px 5px 5px  #ce4c24;
+  transform: scale(1.2);
   
 }
 
@@ -30,7 +36,8 @@
   position: relative;
   bottom: 125px;
   font-size: 20px;
-  width: auto;
+  width: 100%;
+  box-shadow: rgba(131, 93, 93, 0.4) 0px 2px 4px, rgba(179, 54, 54, 0.3) 0px 7px 13px -3px, rgba(165, 43, 43, 0.2) 0px -3px 0px inset;
 }
 
 .about-img{
@@ -39,8 +46,50 @@
   align-self: center;
   height: 40rem;
   overflow: hidden;
-  border-radius: 2rem;
+  border-radius: 5px;
+  box-shadow: rgba(211, 112, 19, 0.979) 5px 5px, rgba(201, 139, 24, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  position: relative;
+  top: 20px;
+  
 }
+
+.subtitulo{
+  animation: mezcladito 4s infinite;
+}
+
+@keyframes mezcladito {
+  from {
+    transition: 7.5s;
+    /* background-color: #91d316;*/
+    color: #a5992d;
+    text-shadow: 2px 2px 8px #FF0000;
+  }
+
+  50% {
+    transition: 7.5s;
+    
+    right: 1em;
+  }
+
+  65% {
+    transition: 7.5s;
+    color: #c48220cb;
+  }
+
+  75% {
+    transition: 7.5s;
+    color: #ccc90d;
+    text-shadow: 2px 2px 8px #FF0000;
+  } 
+      to {
+        transition: 10.5s;
+        /* background-color:#16d345 ;*/
+        color: #bd9616;
+        text-shadow: 2px 2px 8px #FF0000;
+      }
+  }
+
+
 
 @media only screen and (max-width:960px){
 
@@ -59,16 +108,18 @@
   .about-desc > h3{
     font-size: 20px;
     text-align: center;
+    
   }
 
+  
   .about-img{
-    width: 100%;
-    margin-bottom: 50px;
+    width: 10%;
+    
   }
 
   .about-img > img {
     width: 100%;
-
+    position: fixed;
   }
 
 }

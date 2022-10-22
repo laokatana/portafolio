@@ -9,13 +9,6 @@ import Navbar from './components/navbar/Navbar'
 import Proyects from './components/proyects/Proyects'
 import Slider from './components/slider/Slider'
 
-
-
-
-
-
-
-
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0)
 

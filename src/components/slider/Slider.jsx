@@ -124,7 +124,6 @@ const Slider = () => {
           <TextoSlide>
             <p>Proyecto del Programa ONE que impartio alura</p>
             <p>Anotador de tareas</p>
-            <p>Curso: Manipulacion del DOM</p>
             <p>Herramientas: HTML,CSS, JavaScript</p>
             </TextoSlide>
           </Slide>

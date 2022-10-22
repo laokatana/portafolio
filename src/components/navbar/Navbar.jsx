@@ -8,15 +8,15 @@ const Navbar = ({ isScrolling }) => {
   }
 
    const sobreMi = () =>{
-    window.scrollTo( {top : 745, left:0, behavior: "smooth"} )
+    window.scrollTo( {top : 865, left:0, behavior: "smooth"} )
   }
 
      const proyecto = () =>{
-    window.scrollTo( {top : 1525, left:0, behavior: "smooth"} )
+    window.scrollTo( {top : 1985, left:0, behavior: "smooth"} )
   }
 
        const contacto = () =>{
-    window.scrollTo( {top : 2750, left:0, behavior: "smooth"} )
+    window.scrollTo( {top :4000, left:0, behavior: "smooth"} )
   }
   return (
 

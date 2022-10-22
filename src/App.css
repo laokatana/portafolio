@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'DotGothic16', sans-serif;
-  
+ 
 }
 
 
@@ -13,6 +13,6 @@ section {
   height: 510%;
   margin: 0px  auto;
   overflow: hidden;
-  background: linear-gradient(to top,  #161516 ,#161516,#161516,#5f3f7e);
+  background: linear-gradient(to top,  #161516 ,#161516,#161516,#33146d);
    color: aliceblue;
 }

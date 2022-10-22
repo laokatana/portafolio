@@ -1,10 +1,14 @@
 import React from 'react'
 import "./about.css"
+import   sobremi from  "../../media/sobremi2.gif"
+
+
+
 const AboutMe = () => {
   return (
     <div className='about-container'>
       <div className='about-desc' >
-        <h3>Algo sobre mi</h3>
+        <h3 className='subtitulo'>Algo sobre mi</h3>
         <p className='sobre-mi'>
             Soy una persona autodidacta de mente abierta con excelente disposición para el Trabajo en equipo,
             con una buena actitud de resiliencia, compromiso, responsabilidad, paciencia y creatividad.
@@ -22,11 +26,10 @@ const AboutMe = () => {
           </p>
         </div>
 
-
       <div className='about-img'>
-        <img src="https://i.pinimg.com/564x/e8/09/2c/e8092cd62dda94c18db346525ac82790.jpg" alt="imagen" />
-
+        <img src={ sobremi} alt="" />
       </div>
+      
     
     </div>
   )

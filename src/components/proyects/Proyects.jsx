@@ -1,11 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
+import TypeIt from "typeit-react";
 
 const Proyects = () => {
   return (
         
           <Tecnologies>
               
+      <TypeIt
+        option={{
+          speed: 8,
+        }}
+      
+      >
+        
                 Aqui encontraras los proyectos que fui construyendo con el paso del 
                 tiempo los mismos fueron realizados por los cursos que fui tomando 
                 en el transcurso de este aprendizaje constante, cursos como por ejemplo 
@@ -34,7 +42,9 @@ const Proyects = () => {
                     HTML, CSS, React, JavaScript, NodeJs, Express, 
                     MongoDB
           <br />
-          <br />
+        <br />
+        </TypeIt>
+        
         </Tecnologies>
         
   )

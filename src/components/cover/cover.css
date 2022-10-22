@@ -7,7 +7,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .video{
@@ -22,6 +21,7 @@
 .cover-container > h1 {
   color: white;
   font-size: 100px;
+  animation: mezcladito 4s infinite;
 }
 
 .cover-container > p, h4{
@@ -29,6 +29,87 @@
   color: white;
   font-size: 32px;
 }
+
+.about-img{
+  width: auto;
+  height: 75%;
+  position: relative;
+  left: 125px;
+}
+
+
+.parrafo-animado{
+  animation: transformando 4s infinite;
+  width: 25rem;
+  text-align: center;
+  
+}
+
+@keyframes mezcladito {
+  from {
+    transition: 7.5s;
+    /* background-color: #91d316;*/
+    color: #ddd163;
+  }
+
+  50% {
+    transition: 7.5s;
+    
+    right: 1em;
+  }
+
+  65% {
+    transition: 7.5s;
+    color: #c48220cb;
+  }
+
+  75% {
+    transition: 7.5s;
+    color: #b6b41e;
+    text-shadow: 2px 2px 8px #FF0000;
+  } 
+      to {
+        transition: 10.5s;
+        /* background-color:#16d345 ;*/
+        color: #c0b01e;
+        text-shadow: 2px 2px 8px #FF0000;
+      }
+  }
+
+
+  .animadito{
+    animation: mezcladito 4s infinite;
+    width: 15rem;
+    text-align: center;
+
+  }
+
+  
+@keyframes transformando {
+  from{
+     transition: 7.5s;
+     box-shadow: rgba(124, 17, 17, 0.25) 0px 54px 55px, rgba(139, 48, 48, 0.12) 0px -12px 30px, rgba(168, 64, 64, 0.12) 0px 4px 6px, rgba(160, 115, 115, 0.17) 0px 12px 13px, rgba(175, 142, 33, 0.774) 0px -3px 5px;
+    color: #c0b01e;
+        text-shadow: 2px 2px 8px #FF0000;
+  }
+
+  50% {
+    transition: 7.5s;
+    transform: scale(1.1);
+    
+  }
+
+   to {
+        transition: 10.5s;
+        /* background-color:#16d345 ;*/
+        color: #c0b01e;
+        text-shadow: 2px 2px 8px #FF0000;
+      }
+
+}
+
+
+
 
 @media Screen and (max-width: 960px){
   .cover-container > h1 {
@@ -38,7 +119,7 @@
   .cover-container > p {
     text-align: center;
     font-size: 22px;
-    width: 85%;
+    width: 75%;
   }
 
 }
