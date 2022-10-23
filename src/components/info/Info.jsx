@@ -1,7 +1,7 @@
 
 import React from "react";
-import "./Info.css";
-import TypeIt from "typeit-react";
+import "./info.css";
+
 
 const Info = () => {
   
