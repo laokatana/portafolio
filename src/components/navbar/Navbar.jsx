@@ -12,7 +12,7 @@ const Navbar = ({ isScrolling }) => {
   }
 
      const proyecto = () =>{
-    window.scrollTo( {top : 1985, left:0, behavior: "smooth"} )
+    window.scrollTo( {top : 1750, left:0, behavior: "smooth"} )
   }
 
        const contacto = () =>{

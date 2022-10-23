@@ -40,8 +40,10 @@
 
 .parrafo-animado{
   animation: transformando 4s infinite;
-  width: 22rem;
+  width: 25rem;
   text-align: center;
+  border-radius: 5px;
+  height: 3.5rem;
   
 }
 
@@ -50,6 +52,7 @@
     transition: 7.5s;
     /* background-color: #91d316;*/
     color: #ddd163;
+    text-shadow: 2px 2px 8px #d40a0a;
   }
 
   50% {
@@ -95,7 +98,7 @@
 
   50% {
     transition: 7.5s;
-    transform: scale(1.1);
+   
     
   }
 

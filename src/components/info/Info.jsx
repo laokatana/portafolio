@@ -11,7 +11,7 @@ const Info = () => {
     <div className="info-container">
       <div className="info">
         <h1>
-        <TypeIt>Trabajemos juntos</TypeIt>;
+              Trabajemos juntos
         </h1>
 
        

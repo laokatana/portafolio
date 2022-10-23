@@ -113,13 +113,11 @@ const Slider = () => {
             </a>
 
           <TextoSlide>
-            <TypeIt option= {{
-              speed: 10
-            }} >
+            
                   <p>Proyecto de forma Autodidacta</p>
                   <p>Cotizador de criptomonedas</p>
                   <p>Herramientas:  React y Styled Components</p> 
-              </TypeIt>
+            
             </TextoSlide>
           </Slide>
 
@@ -129,9 +127,13 @@ const Slider = () => {
             </a>
 
           <TextoSlide>
-            <p>Proyecto del Programa ONE que impartio alura</p>
-            <p>Anotador de tareas</p>
-            <p>Herramientas: HTML,CSS, JavaScript</p>
+
+ 
+              <p>Proyecto del Programa ONE que impartio alura</p>
+              <p>Anotador de tareas</p>
+              <p>Herramientas: HTML,CSS, JavaScript</p>
+           
+            
             </TextoSlide>
           </Slide>
 
@@ -140,13 +142,16 @@ const Slider = () => {
               <img src={plantasia} alt="" />
             </a>
 
-            <TextoSlide>
+          <TextoSlide>
+         
               <p>Proyecto del Programa IntegrarTec </p>
               <p>Vivero Plantasia</p>
               <p>Segundo evaluativo de la formacion tecnica Global Learning</p>
               <p>Ambito de la evaluacion: Fron-end</p> 
               <p>Curso: Programacion web Full stack, stack MERN</p>
               <p>Herramientas: HTML, CSS, JavaScript</p>
+              
+           
             </TextoSlide>
           </Slide>
 
@@ -155,13 +160,16 @@ const Slider = () => {
               <img src={autores} alt="" />
             </a>
 
-            <TextoSlide>
+          <TextoSlide>
+          
               <p>Proyecto del Programa IntegrarTec </p>
               <p>API de autores</p>
               <p>Tercer evaluativo de la formacion tecnica Global Learning</p>
               <p>Ambito de la evaluacion: Back-end</p>
               <p>Curso: Programacion web Full stack, stack MERN</p>
               <p>Herramientas: NodeJs, MongoDB, Express</p>
+
+            
             </TextoSlide>
           </Slide>
 

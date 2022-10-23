@@ -23,9 +23,11 @@
 .navbar-logo {
   height: 80px;
   line-height: 80px;
-  color: white;
+  
   cursor: pointer;
   transition: 1s all;
+   color: #ddd163;
+  text-shadow: 5px 5px 8px #da2323;
 }
 
 .navbar-logo:hover{

@@ -22,6 +22,18 @@
 
 .footer-info > h1 {
   padding-bottom: 15px;
+  color: #d4aa37;
+  text-shadow: 4px 11px 4px rgba(30,63,159,0.63);
+}
+
+.footer-info > h4{
+   color: #d8b249;
+    text-shadow: 4px 11px 4px rgba(30,63,159,0.63);
+}
+
+.footer-info > p{
+  color: #d8b249;
+    text-shadow: 4px 11px 4px rgba(30,63,159,0.63);
 }
 
 .footer-contact {
@@ -29,7 +41,14 @@
   padding: 100px 0 30px 50px;
   width: 70%;
   margin: 0 auto;
+
 }
+
+.footer-contact > p {
+  color: #d8b249;
+  text-shadow: 4px 11px 4px rgba(30,63,159,0.63);
+}
+
 
 .footer-sns{
     width: 70%;
@@ -56,21 +75,58 @@
     margin: 0 auto;
     padding-bottom: 10px;
     border-bottom: 4px solid transparent;
+    animation: mezcladito 5s infinite;
 }
 
 .linkedin:hover, 
 .github:hover, 
 .mail:hover{
-    border-color: white;
-    transition: all 0.3s ease-out ;
+
+  transform: scale(1.1);
+  border-color: #d8b249;
 }
 
 .design-by {
      font-size: 18px;
      padding-left: 50px;
-     color: white;
+      color: #d8b249;
+    text-shadow: 4px 11px 4px rgba(30,63,159,0.63);
 
 }
+
+
+
+@keyframes mezcladito {
+  from {
+    transition: 7.5s;
+    /* background-color: #91d316;*/
+    color: #ddd163;
+    text-shadow: 2px 2px 8px #d40a0a;
+  }
+
+  50% {
+    transition: 7.5s;
+    
+    right: 1em;
+  }
+
+  65% {
+    transition: 7.5s;
+    color: #c48220cb;
+  }
+
+  75% {
+    transition: 7.5s;
+    color: #b6b41e;
+    text-shadow: 2px 2px 8px #FF0000;
+  } 
+      to {
+        transition: 10.5s;
+        /* background-color:#16d345 ;*/
+        color: #c0b01e;
+        text-shadow: 2px 2px 8px #FF0000;
+      }
+  }
 
 @media only screen and (max-width: 960px){
   .footer-info{
