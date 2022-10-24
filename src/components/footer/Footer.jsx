@@ -1,11 +1,12 @@
 import React from 'react'
 import "./footer.css"
-
+import coverVideo from "../../media/trueno.mp4"
 
 const Footer = () => {
   return (
         
-      <footer className='footer'>
+    <footer className='footer'>
+              <video className='video-footer'  src={coverVideo} autoPlay loop muted> </video>    
           <div className='footer-info'>
         <h1>Larragueta</h1>
         <h1>Lautaro</h1>

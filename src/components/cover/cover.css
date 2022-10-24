@@ -40,7 +40,7 @@
 
 .parrafo-animado{
   animation: transformando 4s infinite;
-  width: 25rem;
+  font-size: 5px;
   text-align: center;
   border-radius: 5px;
   height: 3.5rem;

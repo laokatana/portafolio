@@ -5,16 +5,12 @@ import "./info.css";
 
 const Info = () => {
   
-  
-  
   return (
     <div className="info-container">
       <div className="info">
         <h1>
               Trabajemos juntos
-        </h1>
-
-       
+        </h1>     
       </div>
     </div>
   );

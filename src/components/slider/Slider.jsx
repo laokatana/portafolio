@@ -146,9 +146,8 @@ const Slider = () => {
          
               <p>Proyecto del Programa IntegrarTec </p>
               <p>Vivero Plantasia</p>
-              <p>Segundo evaluativo de la formacion tecnica Global Learning</p>
               <p>Ambito de la evaluacion: Fron-end</p> 
-              <p>Curso: Programacion web Full stack, stack MERN</p>
+              <p>Curso: Programacion web Full stack, stack MERN Global Learning</p>
               <p>Herramientas: HTML, CSS, JavaScript</p>
               
            
