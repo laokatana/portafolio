@@ -118,7 +118,11 @@
 }
 
 
-
+.start{
+  animation: transformando infinite 5s;
+  width: 15rem;
+  text-align: center;
+}
 
 
 @keyframes frio {
@@ -197,5 +201,10 @@
 
   .design-by{
     padding: 0 0 40px 0;
+  }
+
+  .start{
+    position: relative;
+    left: 12px;
   }
 }

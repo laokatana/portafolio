@@ -11,12 +11,12 @@ const Footer = () => {
         <h1>Larragueta</h1>
         <h1>Lautaro</h1>
         <h4>Lao</h4>
-              <p>Full stack developer</p>
+              <p>Front end developer</p>
           </div>
 
           <div className='footer-contact'>
               <h3></h3>
-              <p>Trabajemos juntos</p>
+              <p className='start'>Press the click here</p>
           </div>
 
           <div className='footer-sns'>

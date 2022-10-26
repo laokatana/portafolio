@@ -13,7 +13,7 @@ const Cover = () => {
       <h1> Lautaro </h1>
       <h4 className='animadito'>Lao</h4>
       <h1>Larragueta</h1>
-      <p className='parrafo-animado'>Full Stack Developer</p>
+      <p className='parrafo-animado'>Front-end Developer</p>
     </div>
   )
 }

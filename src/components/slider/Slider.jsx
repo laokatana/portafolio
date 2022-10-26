@@ -1,10 +1,11 @@
 
 import React,{ useRef , useEffect} from 'react'
 import styled from 'styled-components'
-import cripto from "../../images/cripto.jpg"
-import task from "../../images/task.jpg"
+import cripto from "../../images/criptomania.jpg"
+import task from "../../images/tareas.jpg"
 import plantasia from "../../images/plantasia.jpg"
-import autores from "../../images/autores.jpg"
+import autores from "../../images/libros.jpg"
+import noticias from "../../images/noticias.jpg"
 import TypeIt from "typeit-react";
 
 const Slider = () => {
@@ -78,7 +79,7 @@ const Slider = () => {
  useEffect(()=>{
     let intervalo =  setInterval(()=>{
       next();
-    }, 8000);
+    }, 5000);
 
 
     //eliminamos los intervalos
@@ -91,7 +92,7 @@ const Slider = () => {
    slideshow.current.addEventListener( 'mouseleave',  ()=>{
       intervalo  =  setInterval(()=>{
         next();
-      }, 8000);
+      }, 5000);
   }); 
 
 
@@ -144,10 +145,9 @@ const Slider = () => {
 
           <TextoSlide>
          
-              <p>Proyecto del Programa IntegrarTec </p>
-              <p>Vivero Plantasia</p>
-              <p>Ambito de la evaluacion: Fron-end</p> 
-              <p>Curso: Programacion web Full stack, stack MERN Global Learning</p>
+              <p>Programa IntegrarTec </p>             
+              <p>Curso: Programacion web Full stack Global Learning, stack MERN</p>
+              <p> Nombre del Proyecto: Vivero plantasia  </p>
               <p>Herramientas: HTML, CSS, JavaScript</p>
               
            
@@ -161,14 +161,24 @@ const Slider = () => {
 
           <TextoSlide>
           
-              <p>Proyecto del Programa IntegrarTec </p>
-              <p>API de autores</p>
-              <p>Tercer evaluativo de la formacion tecnica Global Learning</p>
-              <p>Ambito de la evaluacion: Back-end</p>
+              <p>Programa IntegrarTec </p>
               <p>Curso: Programacion web Full stack, stack MERN</p>
+              <p>Proyecto back-end: API de autores. Te dirige al repositorio de github</p>
               <p>Herramientas: NodeJs, MongoDB, Express</p>
 
             
+            </TextoSlide>
+        </Slide>
+        
+        <Slide>
+            <a href="https://laokatana.github.io/Proyecto-para-el-curso/index.html" target="_blank">
+              <img src={noticias} alt="" />
+            </a>
+          <TextoSlide>
+              <p>Becas poloIT/ integrarTec </p>
+              <p>Curso: Profundizacion en Javascript</p>
+              <p>Proyecto : portal de noticias</p>
+              <p>Herramientas: HTML, CSS y Javascript</p>
             </TextoSlide>
           </Slide>
 
