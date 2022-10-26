@@ -8,16 +8,22 @@ const Navbar = ({ isScrolling }) => {
   }
 
    const sobreMi = () =>{
-    window.scrollTo( {top : 865, left:0, behavior: "smooth"} )
+     window.scrollTo({ top: 865, left: 0, behavior: "smooth" })
   }
 
-     const proyecto = () =>{
-    window.scrollTo( {top : 1750, left:0, behavior: "smooth"} )
+  const proyecto = () => {
+     if (screen.width < 960) {
+       window.scrollTo({ top: 2200, left: 0, behavior: "smooth" })
+     } else {
+        window.scrollTo( {top : 1750, left:0, behavior: "smooth"} )
+      }  
   }
-
-       const contacto = () =>{
+    
+  const contacto = () => {
     window.scrollTo( {top :4000, left:0, behavior: "smooth"} )
   }
+
+
   return (
 
     <div className='container-navbar'>
