@@ -33,12 +33,12 @@
 .navbar-logo:hover{
   color: rgb(221, 186, 28);
   text-shadow: 5px 5px 5px  #ce4c24;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 @media Screen and (max-width: 960px){
   .navbar{
-    gap: 15px;
+    gap: 12px;
     padding-left: 25px;
   }
 }
