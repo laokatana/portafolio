@@ -16,13 +16,11 @@ const Footer = () => {
 
           <div className='footer-contact'>
               <h3></h3>
-              <p className='start'>Press the click here</p>
+              <p className='start'>Design By Lao</p>
           </div>
 
           <div className='footer-sns'>
-                <div className='design-by'>
-                  Design by Lao
-                 </div>
+                
 
                 <div className='sns-links'>
                   <a href="https://www.linkedin.com/in/lautaro-larragueta/" target="_blank">

@@ -22,13 +22,10 @@ const AboutMe = () => {
               <br />
                   Tengo conocimientos en las siguientes herramientas:
               <br />
-              HTML , CSS, JavaScript, React, NodeJS, Express, MongoDB, MySqL y Git.
+             <span>HTML , CSS, JavaScript, React, NodeJS, Express, MongoDB, MySqL y Git.</span> 
           </p>
         </div>
 
-      <div className='about-img'>
-        <img src={ sobremi} alt="" />
-      </div>
       
     
     </div>

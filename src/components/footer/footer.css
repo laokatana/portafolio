@@ -194,17 +194,27 @@
     text-align: center;
   }
 
-  .footer-sns{
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
+
 
   .design-by{
     padding: 0 0 40px 0;
   }
 
+}
+
+@media only screen and (max-width:320px){
   .start{
-    position: relative;
-    left: 12px;
+   font-size: 15px;
+   text-align: center;
+   width: 8rem;
+    
+    
+  }
+
+
+  .sns-links{
+    
+    gap:45px;
+    
   }
 }
