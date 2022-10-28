@@ -2,22 +2,24 @@ import React from 'react'
 import "./footer.css"
 import coverVideo from "../../media/trueno.mp4"
 
+
 const Footer = () => {
   return (
         
     <footer className='footer'>
               <video className='video-footer'  src={coverVideo} autoPlay loop muted> </video>    
           <div className='footer-info'>
-        <h1>Larragueta</h1>
-        <h1>Lautaro</h1>
-        <h4>Lao</h4>
-              <p>Front end developer</p>
+            <h1>Larragueta</h1>
+            <h1>Lautaro</h1>
+            <h4>Lao</h4>
+          <p>Full stack Developer</p>
+             <a    href="./Full stack Lautaro.s.Larragueta.pdf"  download="Larragueta" >  <p className='start'> Descargue aqui mi cv</p> </a>
           </div>
 
-          <div className='footer-contact'>
-              <h3></h3>
-              <p className='start'>Design By Lao</p>
-          </div>
+
+     
+             
+ 
 
           <div className='footer-sns'>
                 
