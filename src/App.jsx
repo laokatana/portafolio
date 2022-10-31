@@ -10,6 +10,8 @@ import Proyects from './components/proyects/Proyects'
 import Slider from './components/slider/Slider'
 
 function App() {
+
+  
   const [scrollHeight, setScrollHeight] = useState(0)
 
   const handleScroll = () =>{

@@ -12,7 +12,7 @@ const Footer = () => {
             <h1>Larragueta</h1>
             <h1>Lautaro</h1>
             <h4>Lao</h4>
-          <p>Full stack Developer</p>
+           <p>Full stack Developer</p>
              <a    href="./Full stack Lautaro.s.Larragueta.pdf"  download="Larragueta" >  <p className='start'> Descargue aqui mi cv</p> </a>
           </div>
 

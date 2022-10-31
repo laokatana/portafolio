@@ -37,6 +37,9 @@
   color: #c4d437;
   text-shadow: 4px 11px 4px rgba(30,63,159,0.63);
    animation: frio infinite 4s;
+
+
+  
 }
 
 
@@ -84,7 +87,7 @@
 }
 
 .linkedin, .github, .mail {
-    color: white;
+
     font-size: 35px;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -185,15 +188,18 @@
 }
 
 @media only screen and (max-width: 960px){
-  .footer-info{
+  .footer-info > h1{
     text-align: center;
+    font-size: 25px;
     padding: 0;
-    font-size: 20px;
+    height: auto;
+    width: auto;
+    border: solid;
+
   }
   
   .footer-contact {
     font-size: 16px;
-    padding: 100px 0 30px 0 ;
     text-align: center;
   }
 
@@ -208,27 +214,77 @@
     
   }
 
+  
+  
 }
 
-@media only screen and (max-width:320px){
-  .start{
-   font-size: 15px;
-   text-align: center;
-   width: 8rem;
-    
-    
+
+@media only screen and (max-width:720px){ 
+
+    .video-footer{
+      display: none;
+    }
+  
+  
+  .footer{
+    padding-top:10px;
+
+    }
+
+    .linkedin, .github, .mail {
+    font-size: 25px;
+    }
+
+    .sobre-mi {
+      font-size: 10px;
+    }
+
+
+    .footer-info > h1 {
+     padding-bottom: 5px;
+    padding-top: 105px;
+    margin-top: 0px;
+
   }
 
+  .footer-info > h4{
+     font-size: 15px;
+   
+  }
+
+  .footer-info > p {
+  font-size: 12px;
+  }
+
+
+
+  }
+
+
+     
+
+
+@media only screen and (max-width:320px){
+     
   .start {
-    width: auto;
+    width: 10rem;
     text-decoration: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
+    margin-left: 35px;
   }
 
   .sns-links{
-    
     gap:45px;
-    
   }
+
+  .linkedin, .github, .mail {
+    font-size: 25px;
+  }
+
+  
+
+
+
 }
+
