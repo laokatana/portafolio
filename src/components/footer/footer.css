@@ -313,9 +313,17 @@
 
   .nombre-apellido{
     width: auto;
+    margin-top: 150px;
+    
   }  
 
+    .nombre-apellido > h1{
+      font-size: 35px;
+    }
 
+     .nombre-apellido > p{
+      font-size: 15px;
+    }
 
 }
 

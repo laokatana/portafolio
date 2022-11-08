@@ -37,7 +37,7 @@ const Navbar = ({ isScrolling }) => {
 
     <div className='container-navbar'>
       <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
-        <div className='navbar-logo' onClick={toTheTop} >Home</div>
+        <div className='navbar-logo' onClick={toTheTop} >Developer</div>
         <div className='navbar-logo' onClick={sobreMi} > Sobre mi </div>
         <div className='navbar-logo' onClick={proyecto} >Proyectos</div>
         <div className='navbar-logo' onClick={contacto} >Contacto</div>
