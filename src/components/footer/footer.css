@@ -48,7 +48,8 @@
     text-shadow: 4px 11px 4px rgba(30,63,159,0.63);
     animation: frio infinite 4s;
     width: 35%;
-    height: 75vh;
+    box-shadow: rgba(145, 51, 51, 0.4) 0px 2px 4px, rgba(212, 21, 21, 0.3) 0px 7px 13px -3px, rgba(196, 95, 95, 0.2) 0px 3px 0px inset;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     gap: 15px;
