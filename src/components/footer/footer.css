@@ -56,17 +56,22 @@
     
   }
   
+
   .nombre-apellido > h4{
     color: #4993d8;
     text-shadow: 4px 11px 4px rgba(30,63,159,0.63);
     animation: frio infinite 4s;
   }
   
+  .nombre-apellido > p{
+    font-size: 25px;
+  }
   
   .footer-info > p{
     color: #49c3d8;
     text-shadow: 4px 11px 4px rgba(30,63,159,0.63);
     animation: frio infinite 4s;
+    
     
   }
   
