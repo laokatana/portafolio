@@ -14,7 +14,7 @@ const Footer = () => {
             <h1>Lautaro</h1>
             <h4>Lao</h4>
            <p>Full stack Developer</p>
-             <a    href="./Full stack Lao Larragueta.pdf"  download="Larragueta Lautaro" >  <p className='start'> Descargue aqui mi cv</p> </a>
+             <a    href="./Full-StackLao.Larragueta .pdf"  download="Larragueta Lautaro" >  <p className='start'> Descargue aqui mi cv</p> </a>
           </section>
           </div>
 
