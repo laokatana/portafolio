@@ -2,10 +2,6 @@ import React from 'react'
 import "./cover.css"
 import coverVideo from "../../media/video2.mp4"
 
-
-
-
-
 const Cover = () => {
   return (
     <div className='cover-container'>

@@ -3,6 +3,8 @@ import "./footer.css"
 import coverVideo from "../../media/trueno.mp4"
 
 
+
+
 const Footer = () => {
   return (
         
@@ -16,16 +18,9 @@ const Footer = () => {
            <p>Full stack Developer</p>
              <a    href="./Full-StackLao.Larragueta .pdf"  download="Larragueta Lautaro" >  <p className='start'> Descargue aqui mi cv</p> </a>
           </section>
-          </div>
-
-
-     
-             
- 
-
-          <div className='footer-sns'>
-                
-
+      </div>
+      
+          <div className='footer-sns'>                
                 <div className='sns-links'>
                   <a href="https://www.linkedin.com/in/lautaro-larragueta/" target="_blank">
                       <i className=' fab fa-linkedin linkedin '></i>
