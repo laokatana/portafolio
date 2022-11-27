@@ -9,15 +9,15 @@ const Navbar = ({ isScrolling }) => {
 
    const sobreMi = () =>{
       if (screen.width < 960) {
-        window.scrollTo({ top: 745, left: 0, behavior: "smooth" })
-      } else {
+        window.scrollTo({ top: 714, left: 0, behavior: "smooth" })
+      } else  {
         window.scrollTo({ top: 865, left: 0, behavior: "smooth" })
       }  
     }
     
     const proyecto = () => {
       if (screen.width < 960) {
-        window.scrollTo({ top: 1300, left: 0, behavior: "smooth" })
+        window.scrollTo({ top: 1374, left: 0, behavior: "smooth" })
       }else {
         window.scrollTo( {top : 1750, left:0, behavior: "smooth"} )
       }  
