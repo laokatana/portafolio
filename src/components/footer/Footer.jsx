@@ -9,14 +9,17 @@ const Footer = () => {
   return (
         
     <footer className='footer'>
-              <video className='video-footer'  src={coverVideo} autoPlay loop muted> </video>    
+      
+      <video className='video-footer' src={coverVideo} autoPlay loop muted> </video>    
       <div className='footer-info'>
         <section className='nombre-apellido'>
             <h1>Larragueta</h1>
             <h1>Lautaro</h1>
             <h4>Lao</h4>
-           <p>Full stack Developer</p>
-             <a    href="./Full-StackLao.Larragueta .pdf"  download="Larragueta Lautaro" >  <p className='start'> Descargue aqui mi cv</p> </a>
+            <p>Full stack Developer</p>
+           <a href="./Full-StackLao.Larragueta .pdf" download="Larragueta Lautaro" >
+            <p className='start'> Descargue aqui mi cv</p>
+          </a>
           </section>
       </div>
       
