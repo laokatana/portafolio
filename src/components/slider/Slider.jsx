@@ -177,7 +177,7 @@ const Slider = () => {
           <TextoSlide>
               <p>Becas poloIT/ integrarTec </p>
               <p>Curso: Profundizacion en Javascript</p>
-              <p>Proyecto : portal de noticias</p>
+              <p>Proyecto : portal de noticias solo esta repositorio</p>
               <p>Herramientas: HTML, CSS y Javascript</p>
             </TextoSlide>
           </Slide>
