@@ -171,7 +171,7 @@ const Slider = () => {
         </Slide>
         
         <Slide>
-            <a href="https://laokatana.github.io/Proyecto-para-el-curso/index.html" target="_blank">
+            <a href="https://github.com/laokatana/Practica_para_el_Curso_de_UTN" target="_blank">
               <img src={noticias} alt="" />
             </a>
           <TextoSlide>
