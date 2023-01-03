@@ -6,10 +6,8 @@ const Cover = () => {
   return (
     <div className='cover-container'>
       <video className='video'  src={coverVideo} autoPlay loop muted> </video>     
-      <h1> Lautaro </h1>
-      <h4 className='animadito'>Lao</h4>
-      <h1>Larragueta</h1>
-      <p className='parrafo-animado'>Full stack Developer</p>
+      <p> Hola si llegaste hasta aca muchas gracias este portfolio esta pasando por unas mejoras mis mas cordiales saludos, atentramente  <span className='animadito'> Lao Larragueta</span></p>
+     
     </div>
   )
 }

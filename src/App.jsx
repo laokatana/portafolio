@@ -13,6 +13,7 @@ import Slider from './components/slider/Slider'
 
 
 function App() {
+  /*
   const [scrollHeight, setScrollHeight] = useState(0);
   
   const handleScroll = () => {
@@ -23,19 +24,12 @@ function App() {
   useEffect(() => {
     window.addEventListener("scroll",handleScroll);
   }, [scrollHeight])
-  
+  */
   return (
     <div className="App">
-      <Navbar isScrolling={scrollHeight} />
+      
       <Cover/>
-      <AboutMe/>
-      <section>
-        <Title>Proyectos</Title>
-        <Slider/>
-        <Proyects/>
-      </section>
-      <Info/>
-      <Footer/>
+     
 
     </div>
    
