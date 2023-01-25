@@ -20,7 +20,6 @@ const Navbar = ({ isScrolling }) => {
   const aboutMe = () => {
     if (screen.width <= mobile) {
       window.scrollTo({ top: 650, left: 0, behavior: "smooth" })
-      console.log("mobile")
     } else {
       window.scrollTo( {top : 870, left:0, behavior: "smooth"} )
     }
@@ -28,7 +27,6 @@ const Navbar = ({ isScrolling }) => {
   }
 
   const proyects = () => {
-
     if (screen.width >= desktop ) {
       window.scrollTo({ top: 1800, left: 0, behavior: "smooth" })
     } else {

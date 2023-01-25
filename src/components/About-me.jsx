@@ -10,13 +10,18 @@ const About = () => {
         Soy una persona autodidacta de mente abierta con excelente disposición
         para el trabajo en equipo, con buenas habilidades de resiliencia, Soy de
         comunicación clara con la facilidad de poder transmitirme de forma
-        transparente y sincera. Me encanta aprender mediante el conocimiento en
-        todos sus formatos y sentidos. Me especializo en front end en estos
+        transparente y sincera.
+        Me encanta aprender mediante el conocimiento en
+        todos sus formatos y sentidos.
+        Me especializo en front end en estos
         momentos, pero tengo conocimientos de back end con JavaScript. 
+        Aparte de la programacion en mis tiempos libres me gusta crear musica y apreciar 
+        todo tipo de arte ,entretenerme con conocimientos nuevos en general, estar con mis amigxs gatunos llamados
+        kurono y karmina tambien me encanta ir a caminar a espacios verdes y naturales.
         <br />
         Tengo conocimientos en las siguientes herramientas:
         <br />
-        <span>
+        <span className="tecnologias">
           HTML , CSS, JavaScript, React, NodeJS, Express, MongoDB, MySqL y Git.
         </span>
       </p>

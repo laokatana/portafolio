@@ -87,6 +87,15 @@
 }
 
 
+.tecnologias {
+ 
+   
+    color: #dfaedc;
+    text-shadow: 2px 2px  #b700ff;
+    width: 12rem;
+    
+}
+
 .animacion {
   animation: mezcladito 4s infinite;
 }
@@ -190,6 +199,8 @@
     
   }
 }
+
+
 
 @keyframes mezcladito {
   from {
