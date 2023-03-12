@@ -17,7 +17,9 @@ const Developer = () => {
           <p className="text-4xl">Lao</p>
           <h1>Larragueta</h1>
         </section>
-          <p className=" mt-6 mb-48 text-xl text-center text-yellow-500 animacion2  xxl:mt-12   ">Full stack Developer</p>
+        <p className=" mt-6 mb-48 text-xl text-center text-yellow-500 animacion2  xxl:mt-12   ">
+          Full stack Developer
+        </p>
       </div>
     </div>
   );

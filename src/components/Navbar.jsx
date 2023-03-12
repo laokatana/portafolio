@@ -1,55 +1,55 @@
-import React from 'react'
-import styled from 'styled-components'
-  
-
+import React from "react";
+import styled from "styled-components";
 
 const Navbar = ({ isScrolling }) => {
-
-
   const mobile = 768;
   const desktop = 1024;
   const desktopXl = 1400;
 
-
-
-  const developer = () =>{
-    window.scrollTo( {top : 0, left:0, behavior: "smooth"} )
-  }
-
+  const developer = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
 
   const aboutMe = () => {
     if (screen.width <= mobile) {
-      window.scrollTo({ top: 650, left: 0, behavior: "smooth" })
+      window.scrollTo({ top: 650, left: 0, behavior: "smooth" });
     } else {
-      window.scrollTo( {top : 870, left:0, behavior: "smooth"} )
+      window.scrollTo({ top: 870, left: 0, behavior: "smooth" });
     }
-
-  }
+  };
 
   const proyects = () => {
-    if (screen.width >= desktop ) {
-      window.scrollTo({ top: 1800, left: 0, behavior: "smooth" })
+    if (screen.width >= desktop) {
+      window.scrollTo({ top: 1800, left: 0, behavior: "smooth" });
     } else {
-      window.scrollTo({ top: 1300, left: 0, behavior: "smooth" }) 
+      window.scrollTo({ top: 1300, left: 0, behavior: "smooth" });
     }
-
-  }
+  };
 
   const contacto = () => {
-    window.scrollTo( {top : 3500, left:0, behavior: "smooth"} )
-  }
+    window.scrollTo({ top: 3500, left: 0, behavior: "smooth" });
+  };
 
   return (
-      <nav className={`navbarStyle ${isScrolling > 20 ? "scrolling" : null}`}  >
-        <div className='menu-item sombra-navbar' onClick={developer}>Developer</div>
-        <div className='menu-item sombra-navbar' onClick={aboutMe}  > Sobre mi </div>
-        <div className='menu-item sombra-navbar' onClick={proyects}>Proyectos</div>
-        <div className='menu-item sombra-navbar' onClick={contacto}>Contacto</div>
-      </nav>
-  )
-}
+    <nav className={`navbarStyle ${isScrolling > 20 ? "scrolling" : null}`}>
+      <div className="menu-item sombra-navbar" onClick={developer}>
+        Developer
+      </div>
+      <div className="menu-item sombra-navbar" onClick={aboutMe}>
+        {" "}
+        Sobre mi{" "}
+      </div>
+      <div className="menu-item sombra-navbar" onClick={proyects}>
+        Proyectos
+      </div>
+      <div className="menu-item sombra-navbar" onClick={contacto}>
+        Contacto
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
 
 /*
   responsive en tailwind

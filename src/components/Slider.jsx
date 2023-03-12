@@ -8,7 +8,7 @@ import noticias from "../assets/images/noticias.jpg";
 
 const Slider = () => {
   const slideshow = useRef(null);
-  
+
   const next = () => {
     //comprobamos que el slideshow tenga elementos
     if (slideshow.current.children.length > 0) {
@@ -111,11 +111,11 @@ const Slider = () => {
           </TextoSlide>
         </Slide>
 
-          <Slide>
-            <a
-              href=" https://shimmering-marshmallow-655a97.netlify.app/ "
-              target="blank"
-            >
+        <Slide>
+          <a
+            href=" https://shimmering-marshmallow-655a97.netlify.app/ "
+            target="blank"
+          >
             <img src={plantasia} alt="" />
           </a>
 
@@ -144,8 +144,6 @@ const Slider = () => {
             <p>Herramientas: NodeJs, MongoDB, Express</p>
           </TextoSlide>
         </Slide>
-
-       
       </ContenedorSlidehshow>
 
       <Controles>

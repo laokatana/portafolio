@@ -9,14 +9,12 @@
   box-sizing: border-box;
 }
 
-
 .menu-item {
   @apply lg:hover:text-xl
          hover:cursor-pointer
          mb:hover:text-base
          transition-all text-yellow-300 hover:text-yellow-500;
 }
-
 
 .navbar {
   position: fixed;
@@ -40,7 +38,7 @@
   transition: all 0.5s ease;
 }
 
-/* estas son las sombras del texto y los contenedores  */
+/*This is the text shadow and the container shadow */
 
 .sobre-mi-sombra {
   width: 100%;
@@ -48,7 +46,6 @@
   text-shadow: 2px 2px 8px #ff0000;
   box-shadow: #835d5d66 0 2px 4px, #b336364d 0 7px 13px -3px,
     #a52b2b33 0 -3px inset;
-    
 }
 
 .sombra-navbar {
@@ -60,7 +57,6 @@
 }
 
 .about-background {
-  
   background-image: url("../src/assets/sobremi.gif");
   background-position: center;
   background-size: 245%;
@@ -73,44 +69,35 @@
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
 }
 
-
 .footer-item {
   color: #e2d9e4;
 }
 
 .footer-item:hover {
-   animation: links-footer 4s;
-   text-align: center; 
-    color: #a5992d;
-    text-shadow: 2px 2px 8px #ff0000;
-     transform: scale(1.1);
+  animation: links-footer 4s;
+  text-align: center;
+  color: #a5992d;
+  text-shadow: 2px 2px 8px #ff0000;
+  transform: scale(1.1);
 }
 
-
 .tecnologias {
- 
-   
-    color: #dfaedc;
-    text-shadow: 2px 2px  #b700ff;
-    width: 12rem;
-    
+  color: #dfaedc;
+  text-shadow: 2px 2px #b700ff;
+  width: 12rem;
 }
 
 .animacion {
   animation: mezcladito 4s infinite;
 }
 
-.animacion2{
+.animacion2 {
   animation: transformando 4s infinite;
   width: 15rem;
-  
-
 }
 
-.animacion3{
-
+.animacion3 {
   animation: mezcladito2 4s infinite;
-
 }
 
 @keyframes transformando {
@@ -170,7 +157,6 @@
   }
 }
 
-
 @keyframes links-footer {
   from {
     transition: 7.5s;
@@ -182,12 +168,11 @@
     color: #dfaedc;
     text-shadow: 2px 2px 8px #b700ff;
     width: 10rem;
-   
   }
 
   50% {
     transition: 7.5s;
-     width: 12rem;
+    width: 12rem;
   }
 
   to {
@@ -195,12 +180,8 @@
     /* background-color:#16d345 ;*/
     color: #c0b01e;
     text-shadow: 2px 2px 8px #ff0000;
-   
-    
   }
 }
-
-
 
 @keyframes mezcladito {
   from {
@@ -234,15 +215,11 @@
   }
 }
 
-
-
-
 @keyframes mezcladito2 {
   from {
     transition: 7.5s;
     /* background-color: #91d316;*/
     color: #ce8adf;
-    
   }
 
   50% {
@@ -259,7 +236,7 @@
   75% {
     transition: 7.5s;
     color: #e486d4;
-    text-shadow: 2px 2px 8px #ca3b8a; 
+    text-shadow: 2px 2px 8px #ca3b8a;
   }
   to {
     transition: 10.5s;
@@ -269,65 +246,63 @@
   }
 }
 
-@media (width:  375px) {
+
+@media (width: 320px) {
+  .about-background {
+    background-position: center;
+    background-size: 290%;
+  }
+} 
+@media (width: 375px) {
   .about-background {
     background-position: center;
     background-size: 205%;
   }
 
-  .footer-background{
+  .footer-background {
     background-position: center;
     background-size: 195%;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   }
 }
 
-@media (width:  425px){
+@media (width: 425px) {
   .about-background {
     background-position: center;
     background-size: 150%;
   }
 
-
-  .footer-background{
+  .footer-background {
     background-position: center;
     background-size: 170%;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   }
-  
-
 }
 
-@media (width:  768px){
+@media (width: 768px) {
   .about-background {
     background-position: bottom;
     background-size: 95%;
   }
 
-  .footer-background{
+  .footer-background {
     background-position: center;
     background-size: 100%;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   }
-
-
-
 }
 
-
 @media only screen and (min-width: 1024px) {
-  
-    .about-background {
+  .about-background {
     background-position: bottom;
     background-size: 100%;
     height: 100vh;
     padding: 5px;
   }
 
-    .footer-background{
+  .footer-background {
     background-position: bottom;
     background-size: 105%;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   }
-
 }

@@ -4,11 +4,7 @@ import TypeIt from "typeit-react";
 const Proyects = () => {
   return (
     <Tecnologies className="xxl:!px-32 ">
-      <TypeIt
-        option={{
-          speed: 8,
-        }}
-      >
+     
         <p>
           Aqui encontraras los proyectos que fui construyendo con el paso del
           tiempo los mismos fueron realizados por los cursos que fui tomando en
@@ -55,11 +51,10 @@ const Proyects = () => {
         <p>HTML, CSS, React, JavaScript, NodeJs, Express, MongoDB</p>
         <br />
         <br />
-      </TypeIt>
+     
     </Tecnologies>
   );
 };
-
 
 const Tecnologies = styled.div`
   font-size: 18px;

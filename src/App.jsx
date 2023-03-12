@@ -8,26 +8,22 @@ import TitleProyect from "./components/Title-proyect";
 import Proyects from "./components/InfoProyects";
 import Footer from "./components/Footer";
 
-
-
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
 
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollHeight(position);
-
-  }
+  };
 
   useEffect(() => {
-    window.addEventListener("scroll",handleScroll);
-  }, [scrollHeight])
-
+    window.addEventListener("scroll", handleScroll);
+  }, [scrollHeight]);
 
   return (
     <div className="App">
       <Navbar isScrolling={scrollHeight} />
-      <Developer  />
+      <Developer />
       <About />
       <section>
         <TitleProyect />

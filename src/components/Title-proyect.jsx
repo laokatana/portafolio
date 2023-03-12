@@ -13,7 +13,7 @@ const Title = styled.p`
 `;
 
 const TitleProyect = () => {
-  return <Title>Proyectos </Title>;
+  return <Title>Proyects </Title>;
 };
 
 export default TitleProyect;
