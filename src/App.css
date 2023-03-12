@@ -253,6 +253,17 @@
     background-size: 290%;
   }
 } 
+
+
+@media (height: 550px ){
+  
+  .especificando_altura {
+    margin-top:135px ;
+  }
+
+}
+
+
 @media (width: 375px) {
   .about-background {
     background-position: center;

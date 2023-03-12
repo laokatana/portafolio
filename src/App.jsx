@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect} from "react";
 import "./App.css";
 import About from "./components/About-me";
 import Navbar from "./components/Navbar";
@@ -24,8 +24,8 @@ function App() {
     <div className="App">
       <Navbar isScrolling={scrollHeight} />
       <Developer />
-      <About />
-      <section>
+      <About  />
+      <section> 
         <TitleProyect />
         <Slider />
         <Proyects />
