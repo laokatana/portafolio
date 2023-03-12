@@ -255,10 +255,10 @@
 } 
 
 
-@media (height: 550px ){
+@media (height <= 450px ){
   
   .especificando_altura {
-    margin-top:135px ;
+    margin-top:105px ;
   }
 
 }
