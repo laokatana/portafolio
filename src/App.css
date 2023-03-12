@@ -246,23 +246,12 @@
   }
 }
 
-
 @media (width: 320px) {
   .about-background {
     background-position: center;
     background-size: 290%;
   }
-} 
-
-
-@media (height <= 450px ){
-  
-  .especificando_altura {
-    margin-top:105px ;
-  }
-
 }
-
 
 @media (width: 375px) {
   .about-background {
@@ -287,6 +276,16 @@
     background-position: center;
     background-size: 170%;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (height <= 450px) {
+  .especificando_altura {
+    margin-top: 105px;
+  }
+
+  .titulo-footer {
+    padding-bottom: 45px;
   }
 }
 
