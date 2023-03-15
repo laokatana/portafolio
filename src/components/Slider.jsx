@@ -144,6 +144,26 @@ const Slider = () => {
             <p>Herramientas: NodeJs, MongoDB, Express</p>
           </TextoSlide>
         </Slide>
+
+
+
+
+        <Slide>
+          <a href="https://6411119ca2bac5572783cac8--warm-choux-85e963.netlify.app/index.html" target="_blank">
+            <img src={noticias} alt="noticias" />
+          </a>
+
+          <TextoSlide>
+            <p>Programa IntegrarTec/becas Polo IT </p>
+            <p>Curso: UTN Javascript</p>
+            <p>
+              Proyecto Front end: portal de noticias tecnologicas
+            </p>
+            <p>Herramientas: HTML, CSS y Javascript</p>
+          </TextoSlide>
+        </Slide>
+
+
       </ContenedorSlidehshow>
 
       <Controles>
