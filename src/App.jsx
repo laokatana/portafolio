@@ -2,7 +2,7 @@ import { useState, useEffect} from "react";
 import "./App.css";
 import About from "./components/About-me";
 import Navbar from "./components/Navbar";
-import Developer from "./components/Developer";
+import HomePage from "./components/Home-page";
 import Slider from "./components/Slider";
 import TitleProyect from "./components/Title-proyect";
 import Proyects from "./components/InfoProyects";
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <Navbar isScrolling={scrollHeight} />
-      <Developer />
+      <HomePage />
       <About  />
       <section> 
         <TitleProyect />

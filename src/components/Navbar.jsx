@@ -37,7 +37,7 @@ const Navbar = ({ isScrolling }) => {
       </div>
       <div className="menu-item sombra-navbar" onClick={aboutMe}>
         {" "}
-        Sobre mi{" "}
+        About-me{" "}
       </div>
       <div className="menu-item sombra-navbar" onClick={proyects}>
         Proyectos

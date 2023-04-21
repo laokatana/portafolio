@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from "react";
 import styled from "styled-components";
 import cripto from "../assets/images/criptomania.jpg";
 import task from "../assets/images/tareas.jpg";
-import plantasia from "../assets/images/plantasia.jpg";
 import autores from "../assets/images/libros.jpg";
 import noticias from "../assets/images/noticias.jpg";
 
