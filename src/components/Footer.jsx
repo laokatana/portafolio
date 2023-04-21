@@ -30,7 +30,7 @@ const Footer = () => {
         </a>
         <a
           className="footer-item"
-          href="./Full-Stack Lao Larragueta .pdf"
+          href="../../public/Lautaro Larragueta Full Stack.pdf"
           download="Larragueta Lautaro"
         >
           Descargar cv

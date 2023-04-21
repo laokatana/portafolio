@@ -1,6 +1,18 @@
+import video from "../assets/video2.mp4";
+
+
+
 const About = () => {
   return (
-    <div className="flex flex-col items-center p-5  about-background  ">
+    <div className="flex flex-col items-center p-5 about-me-opacity">
+      <video
+        className="w-full h-full object-cover -z-10 top-0 fixed "
+        src={video}
+        autoPlay
+        loop
+        muted
+      ></video>
+
       <h3 className="text-4xl animacion p-5 xxl:text-6xl">Algo sobre mi</h3>
       <p className=" p-2 text-[15px] m-12 sobre-mi-sombra   xxl:px-5 xxl:w-2/4 xxl:text-xl xxl:m-1 xxl:pb-8 ">
         Hola, mi nombre es Lautaro, pero mis amigxs me dicen Lao tengo 27 años,

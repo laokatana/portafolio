@@ -112,24 +112,6 @@ const Slider = () => {
         </Slide>
 
         <Slide>
-          <a
-            href=" https://shimmering-marshmallow-655a97.netlify.app/ "
-            target="blank"
-          >
-            <img src={plantasia} alt="" />
-          </a>
-
-          <TextoSlide>
-            <p>Programa IntegrarTec </p>
-            <p>
-              Curso: Programacion web Full stack Global Learning, stack MERN
-            </p>
-            <p> Nombre del Proyecto: Vivero plantasia </p>
-            <p>Herramientas: HTML, CSS, JavaScript</p>
-          </TextoSlide>
-        </Slide>
-
-        <Slide>
           <a href="https://github.com/laokatana/API-de-Autores" target="_blank">
             <img src={autores} alt="" />
           </a>
@@ -145,25 +127,21 @@ const Slider = () => {
           </TextoSlide>
         </Slide>
 
-
-
-
         <Slide>
-          <a href="https://6411119ca2bac5572783cac8--warm-choux-85e963.netlify.app/index.html" target="_blank">
+          <a
+            href="https://6411119ca2bac5572783cac8--warm-choux-85e963.netlify.app/index.html"
+            target="_blank"
+          >
             <img src={noticias} alt="noticias" />
           </a>
 
           <TextoSlide>
             <p>Programa IntegrarTec/becas Polo IT </p>
             <p>Curso: UTN Javascript</p>
-            <p>
-              Proyecto Front end: portal de noticias tecnologicas
-            </p>
+            <p>Proyecto Front end: portal de noticias tecnologicas</p>
             <p>Herramientas: HTML, CSS y Javascript</p>
           </TextoSlide>
         </Slide>
-
-
       </ContenedorSlidehshow>
 
       <Controles>
