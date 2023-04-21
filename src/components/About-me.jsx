@@ -43,7 +43,7 @@ const About = () => {
         */}
 
       <p className=" p-2 text-[15px] m-12 sobre-mi-sombra   xxl:px-5 xxl:w-2/4 xxl:text-xl xxl:m-1 xxl:pb-8 ">
-        en proceso de mejora, tanto a nivel tecnico como personal, en estos momentos los componentes de este proyecto y como la creacion de otros proyectos  estan siendo retocados en la coder-cueva ("espacio de trabajo") o sea en la compu de mi pieza, sepa disculpar. y si llego hasta aqui gracias por tomarse su tiempo en darle un poco de atencion a mi portfolio, le deseo un lindo dia.
+        en proceso de mejora, tanto a nivel tecnico como personal, en estos momentos los componentes de este proyecto y como la creacion de otros proyectos  estan siendo retocados en la coder-cueva ("espacio de trabajo") o sea en la compu de mi pieza, sepa disculpar. y si usted llego hasta aqui gracias por tomarse su tiempo en darle un poco de atencion a mi portfolio, le deseo un lindo dia.
       </p>
     </div>
   );
