@@ -1,15 +1,31 @@
 import React from "react";
 import styled from "styled-components";
+import { useState, useEffect } from "react";
 
-const Navbar = ({ isScrolling }) => {
+
+const Navbar = () => {
+  
   const mobile = 768;
   const desktop = 1024;
-  const desktopXl = 1400;
+  const desktopXl = 1400;  
+
+
+  const [scrollHeight, setScrollHeight] = useState(0);
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollHeight(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, [scrollHeight]);
+
 
   const developer = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
-
+  
   const aboutMe = () => {
     if (screen.width <= mobile) {
       window.scrollTo({ top: 650, left: 0, behavior: "smooth" });
@@ -17,21 +33,22 @@ const Navbar = ({ isScrolling }) => {
       window.scrollTo({ top: 870, left: 0, behavior: "smooth" });
     }
   };
-
+  
   const proyects = () => {
-    if (screen.width >= desktop) {
+    if (screen.width >= desktop || screen.width >= desktopXl) {
       window.scrollTo({ top: 1800, left: 0, behavior: "smooth" });
     } else {
       window.scrollTo({ top: 1300, left: 0, behavior: "smooth" });
     }
   };
-
+  
   const contacto = () => {
     window.scrollTo({ top: 3500, left: 0, behavior: "smooth" });
   };
 
+
   return (
-    <nav className={`navbarStyle ${isScrolling > 20 ? "scrolling" : null}`}>
+    <nav className={`navbarStyle ${scrollHeight > 20 ? "scrolling" : null}`}>
       <div className="menu-item sombra-navbar" onClick={developer}>
         Developer
       </div>
@@ -45,6 +62,7 @@ const Navbar = ({ isScrolling }) => {
       <div className="menu-item sombra-navbar" onClick={contacto}>
         Contacto
       </div>
+      
     </nav>
   );
 };

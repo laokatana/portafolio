@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+
 const Title = styled.p`
   background-color: black;
   font-size: 45px;
@@ -13,7 +15,7 @@ const Title = styled.p`
 `;
 
 const TitleProyect = () => {
-  return <Title>Proyectos </Title>;
+  return <Title >Proyectos </Title>;
 };
 
 export default TitleProyect;
