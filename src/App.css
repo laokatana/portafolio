@@ -65,12 +65,15 @@
 }
 
 .about-me-background {
+  /*
   background-image: url("../src/assets/sobreme.gif");
   background-position: center;
-  height: 55rem;
+  ;
   background-size: 105%;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  
+  */
+  background-color: black;
+  height: 52rem;
 }
 
 .footer-background {
@@ -270,7 +273,21 @@
 @media (width: 320px) {
   .about-background {
     background-position: center;
-    background-size: 290%;
+    background-size: 275%;
+   
+  }
+
+  .about-me-background {
+  
+    height: 55rem;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    border:solid 1px rebeccapurple;
+  }
+
+  .footer-background {
+    background-position: center;
+    background-size: 275%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -282,7 +299,7 @@
 
   .footer-background {
     background-position: center;
-    background-size: 195%;
+    background-size: 225%;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   }
 }
@@ -295,7 +312,7 @@
 
   .footer-background {
     background-position: center;
-    background-size: 170%;
+    background-size: 198%;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   }
 }
@@ -318,7 +335,7 @@
 
   .footer-background {
     background-position: center;
-    background-size: 100%;
+    background-size: 115%;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   }
 }

@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Title = styled.p`
   background-color: black;
-  font-size: 45px;
+  font-size: 55px;
   text-transform: uppercase;
   padding-top: 40px;
   font-weight: 400;

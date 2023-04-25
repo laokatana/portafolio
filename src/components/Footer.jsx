@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className=" footer-background  h-full flex flex-col items-center justify-center ">
       <section className="text-slate-200 flex flex-col h-screen items-center justify-center gap-5 text-2xl pb-20 ">
-        <p className=" titulo-footer text-4xl text-slate-200 text-center pb-32  animacion3">
+        <p className=" titulo-footer text-5xl text-slate-200 text-center pb-11  animacion3">
           Contacto
         </p>
         <a
@@ -36,6 +36,9 @@ const Footer = () => {
           Descargar cv
         </a>
       </section>
+          <p className="text-white" >Design By Lao</p>
+
+
     </div>
   );
 };

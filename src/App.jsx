@@ -1,4 +1,3 @@
-import { useState, useEffect, useRef } from "react";
 import "./App.css";
 import About from "./components/About-me";
 import Navbar from "./components/Navbar";
@@ -10,12 +9,12 @@ import TitleProyect from "./components/Title-proyect";
 
 
 function App() {
-
-
   return (
     <div className="App">
       <Navbar />
       <HomePage />
+
+      {/* 
       <About />
       <section >
         <TitleProyect />
@@ -23,10 +22,9 @@ function App() {
         <Proyects />
       </section>
       <Footer />
+      */}
     </div>
   );
-  
-
 }
 
 export default App;

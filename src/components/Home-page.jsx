@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Developer = () => {
   return (
     <div>
@@ -14,15 +13,18 @@ const Developer = () => {
          muted
        ></video>
       */}
+           
 
         <section className=" especificando_altura text-4xl text-center mt-64 flex flex-col gap-3 text-yellow-500 animacion xxl:text-8xl  ">
+         
+
           <h1> Lautaro </h1>
           <p className="text-4xl">Lao</p>
           <h1>Larragueta</h1>
         </section>
 
         <p className=" mt-6 mb-48 text-xl text-center text-yellow-500 animacion2  xxl:mt-12 ">
-          Full stack Developer
+          El Portfolio de este developer se esta actualizando sepa disculpar
         </p>
       </div>
     </div>

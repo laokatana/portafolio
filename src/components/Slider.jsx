@@ -83,6 +83,7 @@ const Slider = () => {
   return (
     <ContenedorPrincipal>
       <ContenedorSlidehshow ref={slideshow}>
+        
         <Slide>
           <a href="https://fluffy-dusk-ece8ea.netlify.app/" target="_blank">
             <img src={cripto} alt="" />
@@ -126,33 +127,22 @@ const Slider = () => {
           </TextoSlide>
         </Slide>
 
-        <Slide>
-          <a
-            href="https://6411119ca2bac5572783cac8--warm-choux-85e963.netlify.app/index.html"
-            target="_blank"
-          >
-            <img src={noticias} alt="noticias" />
-          </a>
-
-          <TextoSlide>
-            <p>Programa IntegrarTec/becas Polo IT </p>
-            <p>Curso: UTN Javascript</p>
-            <p>Proyecto Front end: portal de noticias tecnologicas</p>
-            <p>Herramientas: HTML, CSS y Javascript</p>
-          </TextoSlide>
-        </Slide>
       </ContenedorSlidehshow>
 
       <Controles>
+        
         <Boton onClick={previous}>
           {" "}
           <p> ← </p>{" "}
         </Boton>
+
         <Boton derecho onClick={next}>
           {" "}
           <p> → </p>{" "}
         </Boton>
+        
       </Controles>
+
     </ContenedorPrincipal>
   );
 };

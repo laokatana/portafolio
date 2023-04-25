@@ -36,7 +36,7 @@ const Navbar = () => {
   
   const proyects = () => {
     if (screen.width >= desktop || screen.width >= desktopXl) {
-      window.scrollTo({ top: 1800, left: 0, behavior: "smooth" });
+      window.scrollTo({ top: 1700, left: 0, behavior: "smooth" });
     } else {
       window.scrollTo({ top: 1300, left: 0, behavior: "smooth" });
     }
