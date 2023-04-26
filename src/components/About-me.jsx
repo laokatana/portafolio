@@ -32,23 +32,9 @@ const About = () => {
 
       <section className="flex flex-row gap-8">
         <div className="">
-          <button
-            className=" p-2 text-[15px] m-12 sobre-mi-sombra   xxl:px-5 xxl:w-auto xxl:text-xl xxl:m-1 xxl:pb-8 "
-            onClick={Opennig}
-          >
+          <button className=" p-2 text-[15px] m-12 sobre-mi-sombra   xxl:px-5 xxl:w-auto xxl:text-xl xxl:m-1 xxl:pb-8 ">
             Educacion
           </button>
-          {open ? (
-            <div
-              className=" p-2 text-[15px] m-12 sobre-mi-sombra 
-            xxl:px-5 xxl:w-auto xxl:text-xl xxl:m-1 xxl:pb-8 "
-            >
-              <p>Poli-Tic</p>
-              <p>IntegrarTEC</p>
-            </div>
-          ) : (
-            console.log("aca hay que cerrar")
-          )}
         </div>
 
         <div>

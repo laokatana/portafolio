@@ -7,6 +7,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+.loading{
+  text-shadow: 2px 2px 8px #ff0000;
 }
 
 .menu-item {
@@ -114,7 +119,8 @@
 
 .animacion2 {
   animation: transformando 4s infinite;
-  width: 15rem;
+  width: auto;
+  padding: 9px;
 }
 
 .animacion3 {
@@ -131,7 +137,7 @@
       rgba(175, 142, 33, 0.774) 0px -3px 5px;
     color: #c0b01e;
     text-shadow: 2px 2px 8px #ff0000;
-    width: 15rem;
+    width:auto;
   }
 
   50% {

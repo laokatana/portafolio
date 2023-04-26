@@ -62,6 +62,9 @@ const Slider = () => {
     }
   };
 
+  /*
+  este bloque de codigo se encargaba del efecto automatico del slider
+
   useEffect(() => {
     let intervalo = setInterval(() => {
       next();
@@ -80,10 +83,11 @@ const Slider = () => {
     });
   }, []);
 
+  */
+
   return (
     <ContenedorPrincipal>
       <ContenedorSlidehshow ref={slideshow}>
-        
         <Slide>
           <a href="https://fluffy-dusk-ece8ea.netlify.app/" target="_blank">
             <img src={cripto} alt="" />
@@ -126,11 +130,9 @@ const Slider = () => {
             <p>Herramientas: NodeJs, MongoDB, Express</p>
           </TextoSlide>
         </Slide>
-
       </ContenedorSlidehshow>
 
       <Controles>
-        
         <Boton onClick={previous}>
           {" "}
           <p> ← </p>{" "}
@@ -140,9 +142,7 @@ const Slider = () => {
           {" "}
           <p> → </p>{" "}
         </Boton>
-        
       </Controles>
-
     </ContenedorPrincipal>
   );
 };

@@ -3,21 +3,8 @@ import React from "react";
 const Developer = () => {
   return (
     <div>
-      <div className="h-screen	 w-full object-contain flex flex-col  items-center justify-start about-opacity about-background">
-        {/**
-        <video
-         className="w-full h-full object-cover -z-10 top-0 fixed"
-         src={video}
-         autoPlay
-         loop
-         muted
-       ></video>
-      */}
-           
-
+      <div className="h-screen w-full object-contain flex flex-col  items-center justify-start about-opacity about-background">
         <section className=" especificando_altura text-4xl text-center mt-64 flex flex-col gap-3 text-yellow-500 animacion xxl:text-8xl  ">
-         
-
           <h1> Lautaro </h1>
           <p className="text-4xl">Lao</p>
           <h1>Larragueta</h1>
