@@ -5,9 +5,9 @@ import HomePage from "./components/Home-page";
 import Slider from "./components/Slider";
 import Proyects from "./components/InfoProyects";
 import Footer from "./components/Footer";
-import TitleProyect from "./components/Title-proyect";
 import Loader from "./components/Loader";
 import { useState, useEffect } from "react";
+import Navbar2 from "./components/Navbar/Navbar2";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -16,26 +16,28 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 3000);
   }, []);
 
   return (
     <div className="App">
-      {loading ? 
+      {loading ? (
         <Loader />
-       : 
+      ) : (
         <>
-          <Navbar />
+          <Navbar2 />
           <HomePage />
-          <About />
-          <section >
-            <TitleProyect />
-            <Slider />
-            <Proyects />
-          </section>
-          <Footer />
+
+          {/* 
+         
+         <Navbar />
+         <About />
+         <Slider />
+         <Proyects />
+         <Footer />
+          */}
         </>
-      }
+      )}
     </div>
   );
 }

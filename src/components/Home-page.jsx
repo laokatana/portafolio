@@ -1,19 +1,52 @@
 import React from "react";
+import styled from "styled-components";
+
+const ContainerHome = styled.div`
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+`;
+
+const SectionHome = styled.section`
+font-size: 2.25rem;
+line-height: 2.5rem;
+text-align: center;
+margin-top: 11rem;
+display: flex;
+flex-direction: column;
+color: rgb(234 179 8);
+`
+
+const TextHome = styled.p`
+margin-top: 1.5rem;
+margin-bottom: 12rem;
+font-size: 1.15rem/* 20px */;
+line-height: 1.75rem;
+text-align: center;
+color: rgb(234 179 8);
+
+`
 
 const Developer = () => {
   return (
     <div>
-      <div className="h-screen w-full object-contain flex flex-col  items-center justify-start about-opacity about-background">
-        <section className=" especificando_altura text-4xl text-center mt-64 flex flex-col gap-3 text-yellow-500 animacion xxl:text-8xl  ">
+      <ContainerHome className="about-opacity about-background">
+        <SectionHome className=" especificando_altura  animacion   ">
           <h1> Lautaro </h1>
           <p className="text-4xl">Lao</p>
           <h1>Larragueta</h1>
-        </section>
+        </SectionHome>
 
-        <p className=" mt-6 mb-48 text-xl text-center text-yellow-500 animacion2  xxl:mt-12 ">
-          El Portfolio de este developer se esta actualizando sepa disculpar
-        </p>
-      </div>
+        <TextHome className=" animacion2  xxl:mt-12 ">
+          Full Stack Developer
+        </TextHome>  
+
+      </ContainerHome>
     </div>
   );
 };

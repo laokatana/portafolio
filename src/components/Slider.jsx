@@ -5,6 +5,7 @@ import task from "../assets/images/tareas.jpg";
 import autores from "../assets/images/libros.jpg";
 import noticias from "../assets/images/noticias.jpg";
 
+
 const Slider = () => {
   const slideshow = useRef(null);
 
@@ -87,6 +88,7 @@ const Slider = () => {
 
   return (
     <ContenedorPrincipal>
+      <TitleProyect>Proyectos</TitleProyect>
       <ContenedorSlidehshow ref={slideshow}>
         <Slide>
           <a href="https://fluffy-dusk-ece8ea.netlify.app/" target="_blank">
@@ -214,12 +216,30 @@ const Boton = styled.button`
   }
   ${(props) => (props.derecho ? "right: 0" : "left: 0")};
   p {
-    font-size: 35px;
+    font-size: 15px;
     filter: ${(props) =>
       props.derecho
         ? "drop-shadow(-2px 0px 0px #fff)"
         : "drop-shadow(2px 0px 0px #fff)"};
   }
+
+  @media (width:320px) {
+    font-size: 10px;
+    
+  }
+
+`;
+
+const TitleProyect = styled.p`
+  background-color: black;
+  font-size: 45px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #a5992d;
+  text-shadow: 2px 2px 8px #ff0000;
 `;
 
 export default Slider;

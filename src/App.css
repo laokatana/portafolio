@@ -7,10 +7,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
-.loading{
+.loading {
   text-shadow: 2px 2px 8px #ff0000;
 }
 
@@ -26,8 +25,9 @@
   top: 0;
   background-color: transparent;
   width: 100%;
-  height: 80px;
-  font-size: 20px;
+  height: 40px;
+  font-size: 13px;
+  padding: 8px;
   z-index: 1;
   display: flex;
   justify-content: space-around;
@@ -61,12 +61,11 @@
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
 }
 
-
-
 .about-background {
   background-image: url("../src/assets/sobremi.gif");
   background-position: center;
   background-size: 245%;
+  
 }
 
 .about-me-background {
@@ -78,7 +77,7 @@
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   */
   background-color: black;
-  height: 52rem;
+  height: 45rem;
 }
 
 .footer-background {
@@ -114,7 +113,6 @@
   width: 100%;
   color: #e9d78a;
   text-shadow: 2px 2px 8px #e60e0e;
-  
 }
 
 .animacion2 {
@@ -137,7 +135,7 @@
       rgba(175, 142, 33, 0.774) 0px -3px 5px;
     color: #c0b01e;
     text-shadow: 2px 2px 8px #ff0000;
-    width:auto;
+    width: auto;
   }
 
   50% {
@@ -151,7 +149,6 @@
     text-shadow: 2px 2px 8px #ff0000;
   }
 }
-
 
 @keyframes mezcladito {
   from {
@@ -279,17 +276,25 @@
 @media (width: 320px) {
   .about-background {
     background-position: center;
-    background-size: 275%;
-   
+    background-size: 10%;
+
   }
 
   .about-me-background {
-  
-    height: 55rem;
+    
+    height: 35rem;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    border:solid 1px rebeccapurple;
   }
 
+  
+  @media (height: 550px){
+    
+    .about-background {
+      background-position: center;
+      background-size: 189%;
+    }
+
+  }
   .footer-background {
     background-position: center;
     background-size: 275%;
@@ -298,6 +303,12 @@
 }
 
 @media (width: 375px) {
+  .navbar{
+    font-size: 1px;
+    line-height: 1.25rem;
+  }
+  
+
   .about-background {
     background-position: center;
     background-size: 205%;
