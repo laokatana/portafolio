@@ -33,6 +33,21 @@ const IconLogo = styled.div`
 
 `
 
+const MenuItem = styled.li`
+  height: 100%;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-wight:400;
+` 
+
+const MenuItemLink = styled.a`
+  text-decoration: none;
+  color: #ebc88b;
+`
+
+
 const Navbar2 = () => {
   return (
     <>

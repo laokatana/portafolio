@@ -43,7 +43,7 @@ const Developer = () => {
         </SectionHome>
 
         <TextHome className=" animacion2  xxl:mt-12 ">
-          Full Stack Developer
+          Actualizando Portfolio
         </TextHome>  
 
       </ContainerHome>
