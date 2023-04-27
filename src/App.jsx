@@ -7,7 +7,6 @@ import Proyects from "./components/InfoProyects";
 import Footer from "./components/Footer";
 import Loader from "./components/Loader";
 import { useState, useEffect } from "react";
-import Navbar2 from "./components/Navbar/Navbar2";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -25,13 +24,12 @@ function App() {
         <Loader />
       ) : (
         <>
-          <Navbar2 />
+          <Navbar />
           <HomePage />
+          <About />
 
           {/* 
          
-         <Navbar />
-         <About />
          <Slider />
          <Proyects />
          <Footer />
