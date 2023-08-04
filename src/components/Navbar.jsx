@@ -2,7 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import { useState, useEffect } from "react";
 
+/*
+  optimizar y arreglar la funcionalidad de autoscroll 
+  trabajar lo responsive
 
+*/
 
 const Navbar = () => {
   const mobile = 768;
@@ -12,7 +16,7 @@ const Navbar = () => {
   const [scrollHeight, setScrollHeight] = useState(0);
 
   const handleScroll = () => {
-    const position = window.pageYOffset;
+    const position = window.scrollY;
     setScrollHeight(position);
   };
 
@@ -34,7 +38,7 @@ const Navbar = () => {
 
   const proyects = () => {
     if (screen.width >= desktop || screen.width >= desktopXl) {
-      window.scrollTo({ top: 1800, left: 0, behavior: "smooth" });
+      window.scrollTo({ top: 1600, left: 0, behavior: "smooth" });
     } else {
       window.scrollTo({ top: 1050, left: 0, behavior: "smooth" });
     }

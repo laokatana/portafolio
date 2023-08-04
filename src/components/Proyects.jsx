@@ -1,6 +1,10 @@
 import Slider from "./components/Slider";
 import styled from "styled-components";
 
+/*
+  trabajar lo responsive
+*/
+
 const Title = styled.p`
   background-color: black;
   font-size: 45px;
@@ -16,7 +20,6 @@ const Title = styled.p`
 const Proyectos = () => {
   return (
     <div>
-      
       <p>
         Aqui encontraras los proyectos que fui construyendo con el paso del
         tiempo los mismos fueron realizados por los cursos que fui tomando en el

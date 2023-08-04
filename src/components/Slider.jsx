@@ -5,6 +5,11 @@ import task from "../assets/images/tareas.jpg";
 import autores from "../assets/images/libros.jpg";
 import noticias from "../assets/images/noticias.jpg";
 
+/*
+  documentar las funciones next y previous
+  detallando su funcionamiento.
+
+*/
 
 const Slider = () => {
   const slideshow = useRef(null);
@@ -223,11 +228,9 @@ const Boton = styled.button`
         : "drop-shadow(2px 0px 0px #fff)"};
   }
 
-  @media (width:320px) {
+  @media (width: 320px) {
     font-size: 10px;
-    
   }
-
 `;
 
 const TitleProyect = styled.p`

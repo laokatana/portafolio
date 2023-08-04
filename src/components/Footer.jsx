@@ -1,5 +1,9 @@
 import React from "react";
 
+/*
+  Pasar los estilos a styled-components
+*/
+
 const Footer = () => {
   return (
     <div className=" footer-background  h-full flex flex-col items-center justify-center ">
@@ -36,9 +40,8 @@ const Footer = () => {
           Descargar cv
         </a>
       </section>
-          <p className="text-white" >Design By Lao</p>
-
-
+      <p className="text-white">Design By Lao</p>
+      <p className="text-white">Email</p>
     </div>
   );
 };

@@ -27,13 +27,9 @@ function App() {
           <Navbar />
           <HomePage />
           <About />
-
-          {/* 
-         
-         <Slider />
-         <Proyects />
-         <Footer />
-          */}
+          <Slider />
+          <Proyects />
+          <Footer />
         </>
       )}
     </div>
