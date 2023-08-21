@@ -8,15 +8,13 @@ const AboutContainer = styled.div`
   align-items: center;
   text-align: center;
   padding: 12px;
- 
-  
 `;
 
 const AboutTittle = styled.p`
   margin-top: 20px;
   font-size: 2.25rem;
   line-height: 2.5rem;
-  padding: 1.35rem;
+  padding: 10rem;
 `;
 const AboutText = styled.p`
   padding: 0.5rem;
@@ -27,56 +25,45 @@ const AboutText = styled.p`
 const About = () => {
   return (
     <AboutContainer className="about-me-opacity about-me-background ">
-      <AboutTittle className="animacio-about-me ">
-        Algo Sobre Mi
-      </AboutTittle>
+      <AboutTittle className="animacio-about-me">About me</AboutTittle>
 
-        <AboutText className=" sobre-mi-sombra   xxl:AboutTextx-5 xxl:w-2/4 xxl:text-xl xxl:m-1 xxl:pb-8 ">
-          en proceso de mejora, tanto a nivel tecnico como personal, en estos
-          momentos los componentes de este proyecto y como la creacion de otros
-          proyectos estan siendo retocados en la coder-cueva ("espacio de
-          trabajo") o sea en la compu de mi pieza, sepa disculpar. y si usted
-          llego hasta aqui gracias por tomarse su tiempo en darle un poco de
-          atencion a mi portfolio, le deseo un lindo dia.
-        </AboutText>
-
-      {
-        /*
+      {/*
         {condicion ? <ComponenteA /> : <ComponenteB />}
 
-        */
-      }
-      {/*
-        <section className="flex flex-row gap-8">
-          <AboutContainer className="">
-            <button className=" p-2 text-[15px] m-12 sobre-mi-sombra   xxl:px-5 xxl:w-auto xxl:text-xl xxl:m-1 xxl:pb-8 ">
-              Educacion
-            </button>
-          </AboutContainer>
-  
-          <div>
-            <button
-              className=" p-2 text-[15px] m-12 sobre-mi-sombra   xxl:px-5 xxl:w-auto xxl:text-xl xxl:m-1 xxl:pb-8 "
-              onClick={() => {
-                console.log("conocimientos");
-              }}
-            >
-              Conocimientos
-            </button>
-          </div>
-  
-          <div>
-            <button
-              className=" p-2 text-[15px] m-12 sobre-mi-sombra   xxl:px-5 xxl:w-auto xxl:text-xl xxl:m-1 xxl:pb-8 "
-              onClick={() => {
-                console.log("certificados");
-              }}
-            >
-              Certificados
-            </button>
-          </div>
-        </section>
-         */}
+        */}
+
+      <section className="flex flex-row gap-8">
+        <button
+          className=" p-2 text-[15px] m-12 sobre-mi-sombra   xxl:px-5 xxl:w-auto xxl:text-xl xxl:m-1 xxl:pb-8 "
+          onClick={() => {
+            console.log("educacion");
+          }}
+        >
+          Education
+        </button>
+
+        <div>
+          <button
+            className=" p-2 text-[15px] m-12 sobre-mi-sombra   xxl:px-5 xxl:w-auto xxl:text-xl xxl:m-1 xxl:pb-8 "
+            onClick={() => {
+              console.log("conocimientos");
+            }}
+          >
+            technical knowledge
+          </button>
+        </div>
+
+        <div>
+          <button
+            className=" p-2 text-[15px] m-12 sobre-mi-sombra  xxl:px-5 xxl:w-auto xxl:text-xl xxl:m-1 xxl:pb-8 "
+            onClick={() => {
+              console.log("certificados");
+            }}
+          >
+            Certificacions
+          </button>
+        </div>
+      </section>
     </AboutContainer>
   );
 };

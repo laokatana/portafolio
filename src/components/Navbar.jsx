@@ -51,17 +51,17 @@ const Navbar = () => {
   return (
     <nav className={`navbar  ${scrollHeight > 20 ? "scrolling" : null}`}>
       <div className="menu-item sombra-navbar" onClick={developer}>
-        Developer
+        Home
       </div>
       <div className="menu-item sombra-navbar" onClick={aboutMe}>
         {" "}
-        About-me{" "}
+        Developer{" "}
       </div>
       <div className="menu-item sombra-navbar" onClick={proyects}>
-        Proyectos
+        Proyects
       </div>
       <div className="menu-item sombra-navbar" onClick={contacto}>
-        Contacto
+        Contact
       </div>
     </nav>
   );

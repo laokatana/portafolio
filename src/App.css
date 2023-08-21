@@ -64,19 +64,19 @@
 .about-background {
   background-image: url("../src/assets/sobremi.gif");
   background-position: center;
-  background-size: 245%;
 }
 
 .about-me-background {
+  
   /*
-  background-image: url("../src/assets/sobreme.gif");
+  background-image: url("../src/assets/infoMia.jpg");
   background-position: center;
-  ;
-  background-size: 105%;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  background-size: 85%;
+  background-position: 4ch;
   */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  height: 55rem;
   background-color: black;
-  height: 45rem;
 }
 
 .footer-background {
@@ -275,7 +275,7 @@
 @media (width: 320px) {
   .about-background {
     background-position: center;
-    background-size: 10%;
+    background-size: 165%;
   }
 
   .about-me-background {
@@ -287,14 +287,12 @@
     font-size: 12px;
   }
 
-  .tittle{
+  .tittle {
     font-size: 2rem;
   }
-  .navbar{
+  .navbar {
     font-size: 12px;
   }
-
-  
 
   @media (height: 550px) {
     .about-background {
@@ -317,7 +315,7 @@
 
   .about-background {
     background-position: center;
-    background-size: 150%;
+    background-size: 200%;
   }
 
   .footer-background {
@@ -369,7 +367,6 @@
     background-size: 100%;
     height: 100vh;
     padding: 5px;
-    
   }
 
   .footer-background {
